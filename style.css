@@ -1,0 +1,1295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.section{
+    width: 100%;
+    height: 650px;
+    background-image: url("background.png");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1%;
+
+}
+.logo{
+    width: 25%;
+}
+.logo header{
+    font-size: 1.1em;
+    float: right;
+}
+
+
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1em;
+    color: white;
+    overflow: hidden;
+    
+}
+.social-icon{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon img{
+    
+   
+}
+
+.navbar-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar-links{
+    
+    width: 40%;
+}
+.navbar-links ul li{
+     padding: 2%;
+     font-size: 0.9em;    
+     
+}
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-links li:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.hideme{
+    display: none;
+}
+.toogle-button {
+    position: absolute;
+    top: .50rem;
+    right: 0.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+}
+.service-content{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+   margin-top: 12%;
+}
+.service-content span{
+    color: red;
+}
+.service-content h1{
+    width: 62%;
+   margin: auto; 
+font-size: 2.7rem;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+}
+.service-content p{
+    width: 49%;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 0.7rem;
+    color: white;
+    opacity: 0.702;
+}
+.button{
+    margin-top: 3%;
+       width: 16%;
+       padding: 1%;
+       background: transparent;
+       border: 1px solid white;
+       border-radius: 16px;
+       color: white;
+       font-size: 0.9rem;
+       font-weight: bold;
+}
+.circle{
+    text-align: center;
+    margin-top: 15%;
+}
+.step{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.7;
+}
+.modern-design{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.design{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-design{
+    width: 45%;
+    
+}
+.design-item{
+    width: 100%;
+
+    margin-top: 10%;
+}
+.design0{
+    width: 90%;
+    display: flex;
+    
+    
+    margin-top: 5%;
+    box-shadow: 1px 1px 12px 3px gainsboro;
+    height: auto;
+
+}
+.design-content{
+    width: 55%;
+    padding: 7%;
+    position: relative;
+   
+}
+.design-content h3{
+    font-weight: bolder;
+    color: #2d3f51;
+}
+.design-content p{
+    margin-top: 5%;
+    font-size: 0.7rem;
+    color: grey;
+    line-height: 1.9;   
+}
+.read{
+    color: #2d3f51;
+}
+.design-pic{
+    width: 46%;
+    height: auto;
+}
+.design-pic img{
+    width: 100%;
+    height: 100%;
+}
+.about-design-content{
+    width: 100%;
+    height: auto;
+    padding-left: 4%;
+    color: #2d3f51;
+}
+
+.about-design-content p{
+    margin-top: 5%;
+    color: grey;
+    line-height: 1.7;
+    font-size: 0.7rem;
+
+}
+.about-design-content .para-2{
+    
+width: 80%;
+}
+.about-design-content button{
+    width: 43%;
+    height: 8vh;
+    background-color: #c8342d;
+    font-weight: lighter;
+    
+}
+.show-work{
+    background-color: #f5f5f5;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+.show-work p{
+    color: grey;
+}
+.show-work .content {
+   
+   
+    text-align: center;
+}
+.content header {
+    padding-top: 4%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2d3f51;
+}
+.content p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+    margin-top: 1%;
+    line-height: 1.6;
+}
+.show-work-data{
+    margin-top: 2.4%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2d3f51;
+    font-weight: bold;
+}
+.show-work-data ul{
+    
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.show-work-data li{
+    padding: 1.5%;
+}
+.show-work-data li:hover{
+    border: 1px solid #c8342d;
+    color: #c8342d;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+.show-work-image{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%; 
+
+}
+
+
+
+.first-row-col1{
+    width: 95%;
+    height: auto;
+   
+}
+.first-row-col1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-row{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-col1{
+    width: 47%;
+
+}
+.second-row img{
+    width: 100%;
+    height: 90%;
+    margin-top: 11%;
+}
+.second-col2{
+    width: 47%;
+}
+.first-row{
+    width:68% ;
+  
+}
+
+.col-2{
+    width: 31%;
+    height:auto;
+    
+}
+.col-2 img{
+    width: 100%;
+    height: 100%;
+}
+.button-work{
+    text-align: center;
+}
+.button-work .buttons{
+        width: 16%;
+        height: 7vh;
+        background-color: #c8342d;
+        font-weight: lighter;
+        margin-top: 3%;
+        color: white;  
+        border-radius: 12px;
+        border: none;
+    
+    
+}
+.work-process{
+    width: 100%;
+    height: auto;
+    background-color: #2d3f51;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.work-process .flex{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.work-process p{
+    margin-top: 2%;
+    width: 50%;
+    line-height: 1.8;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+    color: white;
+    opacity: 0.7;
+}
+.work-item h5{
+    margin-top: 15%;
+    color: white;
+}
+.octagon {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+    transform: rotate(45deg);
+    background: transparent;
+    border: 2px solid white;
+    left: 0;
+    
+}
+.octagonWrap {
+    width:97px;
+    height:97px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;  
+    left: 0;
+}
+.octagon:hover {
+    border: 2px solid red;   
+}
+.octagonWrap:hover{
+    color: red;
+}
+.octagon:before {
+    position: absolute;
+    top: -2px; right: -2px; bottom: -2px; left: -2px;
+    transform: rotate(45deg);
+    content: '';
+    border: inherit;
+}
+.octagonWrap h1{
+  padding: 25px 0;
+  
+}
+.amazing-service{
+    width: 100%;
+    height: auto; 
+    text-align: center;  
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.amazing-service h1{
+    color: #2d3f51;
+ 
+}
+.amazing-service p{
+
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+    color: grey;
+    line-height:1.6;
+}
+.amazing-service .service-flex{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+
+.service-flex h1,h5{
+    color: #2d3f51;
+}
+.service-flex p{
+    width: 100%;
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.service-flex .items{
+    width: 30%;
+
+    margin-top: 2%;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+  
+
+}
+.service-flex .items:hover{
+    box-shadow: 1px 1px 15px 3px gainsboro;
+}
+.octagon-content{
+
+    width: 100%;
+}
+.octagonWrap-service {
+    width:97px;
+    height:97px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 8%;
+    left: 0;
+    
+   
+  
+}
+.octagonWrap-service img{
+    padding: 22px 0;
+    
+
+    
+}
+.octagon-service {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+    left: 0;
+    transform: rotate(45deg);
+    background: transparent;
+    border: 2px solid #c8342d;
+    
+}
+.items:hover .octagon-service {
+    border: 2px solid #2d3f51;
+}
+
+.octagon-service:before {
+    position: absolute;
+    top: -2px; right: -2px; bottom: -2px; left: -2px;
+    transform: rotate(45deg);
+    content: '';
+    border: inherit;
+}
+
+.about-client{
+    width: 100%;
+    height: auto;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+    
+    
+
+}
+.about-client header{
+    padding-top: 2%;
+}
+.client-image{
+    margin-top: 4%;
+}
+.client-image h5{
+    color: red;
+    margin-top: 1%;
+}
+.client-image h4{
+
+}
+.client-data{
+    margin-top: 1%;
+    width: 48.2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+}
+.client-data p{
+    opacity: 0.7;
+    line-height: 1.8;
+
+}
+.rating{
+    margin-top: 2%;
+}
+.client-circle{
+    margin-top: 3%;
+    padding-bottom: 2%;
+    
+    
+}
+.blog-news{
+    text-align: center;
+    margin-top: 3%;
+    height: auto;
+}
+.blog-news h1{
+    color: #2d3f51;
+}
+.blog-news p{
+    color: grey;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+    margin-top: 1%;
+    line-height: 1.8;
+}
+.mock-up{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px 3px whitesmoke;
+}
+.phone-image{
+
+    width: 30%;
+    height: auto;
+}
+.mock-up-data{
+    text-align: left;
+    padding: 2%;
+    height: auto;
+    width:65% ;
+  
+}
+.mock-up-data h6{
+    color: red;
+    
+}
+.mock-up-data h5{
+    margin-top: 3%;
+}
+
+.mock-up-data p{
+    margin: 0;
+    margin-top: 2%;
+    width: 100%;
+    line-height: 1.9;
+    font-size: 0.75rem;
+}
+
+
+.phone-image img{
+    height: 100%;
+    width: 100%;
+}
+.mock-data2{
+    
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+   
+    margin-top: 3%;
+}
+.mock-data2 .flex-mock{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mock-data2 .item{
+    text-align: left;
+    width: 30%;
+    padding: 2%;
+    box-shadow: 2px 2px 12px 5px gainsboro;
+    
+}
+.mock-data2 .item h6{
+    color: red;
+}
+.mock-data2 .item p{
+  margin: 0;
+  margin-top: 3%;
+  line-height: 1.8;
+
+}
+
+
+
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+    
+    background-color: #28252a;
+}
+.footer-data{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-size: 1rem;
+}
+
+.footer-data ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+
+}
+.footer-icon{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    font-size: 1rem;
+
+}
+.footer-icon ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;   
+    
+}
+.footer-detail{
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.4%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+.anime{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+ .anime.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .anime2{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 1s all ease ;
+  }
+  .anime2.active{
+    transform: translateX(0);
+    opacity: 1;
+  } 
+@media (max-width:650px) {
+  
+    .anime2{
+        
+        transform: translateX(0px);
+       
+      }
+      
+   
+    .navbar-links {
+        display: none;
+        width: 100%;
+        background-color:#2d3f51;
+    }
+    .toogle-button {
+        display: flex;
+    }
+    .navbar {
+        background-color:#2d3f51;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links{
+        margin-top: 5%;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;   
+        
+    }
+    
+    .navbar-links li {
+        text-align: center;       
+    }
+    .navbar-links li:hover{
+        background-color: white;
+        color: #2d3f51;
+        
+    }
+    .navbar-links li:hover a{
+        background-color: white;
+        color: #2d3f51;
+        font-weight: bold;
+        
+    }
+    .hideme {
+        display: none;
+    }
+  
+   
+    .hideme:checked~.navbar-links {
+        display: block;
+    }
+    
+    .section{
+        height: auto;
+        padding-bottom: 8%;
+        padding-top: 0;
+    }
+    .navbar{
+        padding: 5%;
+    }
+    .social-icon{
+        display: none;
+    }
+    .logo{
+        width: 36%;
+    }
+    .logo header{
+        float: left;
+    }
+
+    .service-content h1{
+        
+
+    font-size: 1.6rem;
+    margin-top: 5%;
+
+
+    }
+    .service-content p{
+        margin-top: 11%;
+        
+        width: 80%;
+        font-size: 1rem;
+    }
+    .service-content button{
+        width: 33%;
+        margin-top: 13%;
+    }
+    .modern-design{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-design{
+        width: 100%;
+        text-align: center;
+      
+       
+    }
+     .design{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .design0{
+        width: 100%;
+    }
+    .about-design-content{
+        
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .about-design h2{
+        font-size: 1.8rem;
+        margin-top: 8%;
+        width: 91%;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-design p{
+        font-size: 1rem;
+        margin-top: 7%;
+        width: 93%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ .about-design-content .para-2{
+    font-size: 1rem;
+    margin-top: 3%;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .about-design-content .button{
+        font-size: 1rem;
+        height: 15vh;
+        width: 34%;
+        
+    }
+    .content{
+        padding: 2%;
+    }
+    .content header{
+        width: 100%;
+        font-size: 1rem;
+        padding: 3%;
+    }
+    .content p{
+        width: 99%;
+    font-size: 1.0rem;
+    line-height: 1.9;
+    }
+    .show-work-data {
+        width: 97%;
+        margin-top: 6%;
+        margin-bottom: 5%;
+    }
+    .show-work-data ul{
+        flex-wrap: wrap;
+    }
+    .button-work .buttons{
+        width: 29%;
+        font-size: 0.9rem;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        height: 8vh;
+    }
+    .show-work-image{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .show-work-image .first-row{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .show-work-image .first-row-col1{
+        box-shadow: 1px 1px 16px 5px gainsboro;
+        height: 55vh;
+    }
+    .show-work-image .second-row{
+        margin-top: 10%;
+        flex-wrap: wrap;
+    }
+    .show-work-image .second-col1{
+        box-shadow: 1px 1px 16px 5px gainsboro;
+        height: 55vh;
+        width: 100%;
+    }
+    .show-work-image .second-col1 img{
+        margin-top: 0;
+        height: 100%;
+    }
+    .show-work-image .second-col2{
+        box-shadow: 1px 1px 16px 5px gainsboro;
+        height: 55vh;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .show-work-image .second-col2 img{
+        margin-top: 0;
+        height: 100%;
+    }
+    .show-work-image .col-2{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+        height: 90vh;
+        box-shadow: 1px 1px 15px 3px gainsboro;
+        display: none;
+    }
+    .work-process{
+        padding-bottom: 8%;
+    }
+    .work-process h1{
+        margin-top: 5%;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .work-process p{
+        width: 90%;
+        line-height: 1.9;
+        color: gainsboro;
+        font-size: 0.9rem;
+    }
+    .work-process .flex{
+        margin-top: 2%;
+    }
+    .work-process .flex .work-item{
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       
+    }
+     
+    .octagonWrap{
+        width: 130px;
+        height: 130px;
+    }
+    .octagonWrap h1{
+        font-size: 3.2rem;
+        padding: 20px 0;
+
+    }
+    .work-process .flex .work-item h5{
+        font-size: 1.2rem;
+        margin-top: 7%;
+    }
+    .amazing-service p{
+        font-size: 0.9rem;
+        width: 87%;
+        margin-top: 3%;
+    }
+    .service-flex{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .service-flex .items{
+        width: 50%;
+    }
+    .about-client h2{
+        font-size: 1.6rem;
+    }
+    .client-image h5{
+        font-size: 1rem;
+    }
+    .client-image h4{
+        margin-top: 1%;
+    }
+    .client-data{
+        width: 75%;
+        margin-top: 5%;
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+    .rating{
+        margin-top: 3%;
+    }
+    .client-circle{
+        margin-top: 5%;
+    }
+    .blog-news p{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+    .mock-up{
+        width: 80%;
+    }
+    .phone-image{
+        
+        display: none;
+    }
+    .mock-up-data{
+        height: 100%;
+        width: 97%;
+        overflow: hidden;
+        margin: auto;
+    }
+    .mock-up-data h6{
+        font-size: 0.6rem;
+
+    }
+    .mock-up-data h5{
+        font-size: 0.6rem;
+    }
+    .mock-up-data p{
+        font-size: 0.6rem;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+
+    .mock-data2{
+        width: 95%;
+        height:auto;
+        padding-bottom: 5%;
+    }
+    .flex-mock .item{
+        height: auto;
+    }
+    .flex-mock .item h6,h5,p{
+        font-size: 0.7rem;
+    }
+    .flex-mock .item p{
+        font-size: 0.6rem;
+    }
+    .flex-mock .item b{
+        font-size: 0.7rem;
+    }
+    .footer-data{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .footer-icon{
+        width: 42%;
+    }
+    .footer-detail{
+        width: 80%;
+    }
+
+
+
+
+
+}
+@media (max-width:500px){
+    .service-content h1{
+        width: 72%;
+    }
+    .service-content p{
+        width: 80%;
+    }
+    .service-content .button{
+        width: 36%;
+        font-size: 0.8rem;
+    }
+    .modern-design .design{
+        width: 85%;
+
+    }
+    .about-design{
+        font-size: 1.5rem;
+    }
+    .about-design-content h2{
+        font-size: 1.4rem;
+    }
+    .about-design-content p{
+        width: 80%;
+        font-size: 1rem;
+
+    }
+    .about-design-content para-2{
+        width: 80%;
+        font-size: 1rem;
+
+    }
+    .about-design-content .button{
+        height: auto;
+        width: 40%;
+    }
+    .content p{
+        width: 82%;
+    }
+    .show-work-data li{
+        font-size: 1.2rem;
+    }
+    .show-work-image .first-row{
+        width: 80%;
+    }
+   .first-row .first-row-col1{
+        height: 35vh;
+    }
+    .second-row .second-col1{
+        height: 40vh;
+    }
+    .second-row .second-col2{
+        height: 40vh;
+    }
+    .button-work .buttons{
+        width: 37%;
+        height: auto;
+        padding: 1%;
+
+    }
+    .work-process p{
+        margin-top: 5%;
+    }
+    .work-process .flex .work-item {
+        width: 100%;
+    }
+    .service-flex .items{
+        width: 100%;
+    }
+    .flex-mock .item{
+        width: 85%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 5%;
+
+    }
+    .flex-mock .item p{
+        font-size: 1rem;
+    }
+    .flex-mock h5,h4,h6{
+        font-size: 1rem;
+    }
+    .flex-mock .item b {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 650px) {
+    .anime2{
+        transform: translateX(0px);
+      }
+    .logo{
+        width: 13%;
+    }
+    .service-content p{
+        width: 73%;
+        font-size: 1rem;
+        margin-top: 5%;
+
+    }
+    .service-content .button{
+        width: 20%;
+        font-size: 1rem;
+    }
+    .modern-design{
+        width: 85%;
+    }
+    .design .design-item .design0{
+        width: 95%;
+    }
+    .design-content p{
+        font-size: 0.8rem;
+    }
+    .about-design-content h2{
+        font-size: 1.2rem;
+    }
+    .about-design-content p{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .about-design-content .para-2{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .about-design-content .button{
+        width: 50%;
+        height: auto;
+        padding: 2%;
+    }
+    .show-work .content header{
+        width: 70%;
+    }
+    .content p{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .show-work-data{
+        width: 56%;
+        font-size: 1.1rem;
+    }
+     .button-work .buttons{
+        width: 23%;
+        height: auto;
+        padding: 1.5%;
+    }
+    .work-process p{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .work-process .flex{
+        width: 90%;
+    }
+    .amazing-service p{
+        width: 60%;
+        font-size: 0.8rem;
+        margin-top: 2%;
+
+    }
+    .service-flex{
+        width: 85%;
+        margin-top: 3%;
+    }
+   .about-client .client-data{
+        width: 60%;
+    }
+    .about-client .client-data p{
+        font-size: 0.8rem;
+    }
+    .blog-news p{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .phone-image{
+        display: none;
+    }
+    .mock-up-data{
+        width: 100%;
+        padding: 4%;
+    }
+    .mock-up-data p{
+        width: 98%;
+        
+    }
+    .mock-data2 .flex-mock .item p{
+        width: 100%;
+    }
+    .footer-data{
+        width: 60%;
+    }
+    .footer-icon{
+        width: 22%;
+    }
+    .footer-detail{
+        width: 40%;
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
